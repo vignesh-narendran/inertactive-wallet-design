@@ -1,0 +1,66 @@
+body {
+    background: #666;
+}
+
+.wallet {
+    height: 250px;
+    width: 400px;
+    background-color: #333;
+    border-radius: 15px;
+}
+
+.main-container {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.notch {
+    border-radius: 10px 10px 0px 0px;
+    height: 20px;
+    width: 400px;
+    margin: 0 auto;
+    bottom: 85%;
+    position: absolute;
+    background-color: #333;
+
+}
+
+.card {
+    border-radius: 50px;
+    height: 30px;
+    width: 400px;
+    margin: 0 auto;
+    bottom: 87%;
+    position: absolute;
+}
+
+#redcard {
+    background-color: #FF2828;
+}
+
+#bluecard {
+    background-color: #2C9DFF;
+    bottom: 90%;
+}
+
+#yellowcard {
+    background-color: yellow;
+    bottom: 93%;
+}
+
+.apple-logo {
+    width: 10%;
+    top: 80%;
+    left: 89%;
+    position: absolute;
+}
+
+.card-details {
+    position: absolute;
+    top: 5%;
+    padding: 10px;
+    color: white;
+    font-family: helvetica;
+}
